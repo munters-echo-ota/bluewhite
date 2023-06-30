@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="app">
+      <UniqueIdentifier>{0da94738-2111-4b75-8f6d-27658e7709ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="drivers">
+      <UniqueIdentifier>{445ae151-b97a-496e-8727-23a74618308c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="app\Baler.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\Dispatcher.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\I2CDevice.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\Implement.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\ImplementController.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\ImplementFactory.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\ImplementModule.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\Mower.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\Singleton.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\SPIDevice.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\Sprayer.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\Tillage.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="app\Tractor.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\HAL_I2C.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\HAL_RS232.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers\HAL_SPI.h">
+      <Filter>drivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app\Dispatcher.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\I2CDevice.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\ImplementController.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\ImplementFactory.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\ImplementModule.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\SPIDevice.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="app\Tractor.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\HAL_RS232.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers\HAL_SPI.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="drivers\HAL_I2C.c">
+      <Filter>drivers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
